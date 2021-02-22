@@ -1,0 +1,178 @@
+/*
+ Theme Name:   ShipStation
+ Theme URI:    http://ss-demo.flywheelsites.com/
+ Description:  Custom theme created for ShipStation
+ Author:       Raven Wills
+ Author URI:   https://raven.codes
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentychild
+*/
+body {
+  font-family: Roboto, Arial Narrow, Geneva, Lucida Grande, Helvetica,
+    sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg%20width%3D%221440px%22%20height%3D%22602px%22%20viewBox%3D%220%200%201440%20602%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3C!--%20Generator%3A%20Sketch%2061.2%20(89653)%20-%20https%3A%2F%2Fsketch.com%20--%3E%0A%20%20%20%20%3Ctitle%3ECombined%20Shape%3C%2Ftitle%3E%0A%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20x1%3D%2250.5227497%25%22%20y1%3D%2253.8044302%25%22%20x2%3D%2250.5227497%25%22%20y2%3D%2279.0861528%25%22%20id%3D%22linearGradient-1%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%23C8F3E0%22%20stop-opacity%3D%220.680780157%22%20offset%3D%220%25%22%3E%3C%2Fstop%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%2397E3BD%22%20stop-opacity%3D%220.680780157%22%20offset%3D%22100%25%22%3E%3C%2Fstop%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20opacity%3D%220.496651786%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Desktop-HD%22%20transform%3D%22translate(0.000000%2C%20-189.000000)%22%20fill%3D%22url(%23linearGradient-1)%22%20fill-rule%3D%22nonzero%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M1729%2C602.875%20L1658.5%2C629.1875%20C1588%2C655.5%201447%2C708.125%201306%2C725.721484%20C1165%2C742.660156%201024%2C726.214844%20883%2C681.8125%20C742%2C637.410156%20601%2C568.339844%20460%2C576.5625%20C319%2C584.785156%20178%2C673.589844%2037%2C734.4375%20C-104%2C795.285156%20-245%2C831.464844%20-315.5%2C848.403516%20L-315.5%2C848.403516%20L-386%2C866%20L-386%2C182.571789%20L-315.5%2C173.85082%20C-245%2C164.471665%20-104%2C148.017008%2037%2C156.244337%20C178%2C164.471665%20319%2C200.671912%20460%2C243.947662%20C601%2C287.881598%20742%2C340.536502%20883%2C340.536502%20C1024%2C340.536502%201165%2C287.881598%201306%2C279.160629%20C1447%2C269.781474%201588%2C305.981721%201658.5%2C322.930018%20L1729%2C340.536502%20L1729%2C602.875%20Z%22%20id%3D%22Combined-Shape%22%20transform%3D%22translate(671.500000%2C%20510.004996)%20rotate(-3.000000)%20translate(-671.500000%2C%20-510.004996)%20%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+  background-size: 130% 115%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+a {
+  color: #297768;
+  background-image: linear-gradient(transparent calc(100% - 1px), #1c5247 1px);
+  background-size: 0 100%;
+  background-position: 100%;
+  position: relative;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  transition: all 0.2s;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a:hover {
+  background-size: 100% 100%;
+  color: #1c5247;
+}
+
+.menu-item a {
+  text-decoration: none !important;
+}
+
+.hero-btn-container {
+  max-width: 275px;
+}
+
+.btn-primary {
+  background-color: #297768;
+  border-radius: 50px;
+  padding: 10px 25px;
+  border: none;
+  text-transform: none;
+  font-size: 16px;
+  transition: all 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: #1c5247;
+}
+
+.hero-block {
+  background-image: url("http://shipstation.local/wp-content/uploads/2021/02/woman-and-child-scaled-e1613099691583.jpg");
+  background-color: gray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+}
+
+.logo-stripe img {
+  object-fit: contain;
+  max-width: 150px;
+  margin: 0 15px;
+}
+
+.border-left {
+  padding-left: 35px;
+  border-left: 2px solid #cecece9e !important;
+}
+
+/* Background Transparent Gradient */
+.bg-light-t-o-g::before {
+  background-color: hsla(0, 0%, 100%, 0.55);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.vh-70 {
+  min-height: 70vh;
+}
+
+.gold-stars {
+  max-width: 245px;
+}
+
+.logo-stripe {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.card-group {
+  max-width: 1000px;
+  margin-top: 35px;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.card-title {
+  color: #297768;
+  margin-top: 1rem;
+}
+
+.card-body {
+  padding-left: 0;
+}
+
+.text-with-cta h2 {
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.text-with-cta p {
+  max-width: 52ch;
+  margin: 0 auto 30px;
+}
+
+.img-list h2 {
+  margin-top: 0;
+}
+
+.order-details-img {
+  filter: drop-shadow(4px 7px 11px grey);
+}
+
+.features-list h4 {
+  margin-top: 0;
+  color: #297768;
+  margin-bottom: 1rem;
+}
+
+.features-list p {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .bg-light-t-o-g::before {
+    background-image: linear-gradient(
+      to right,
+      hsla(0, 0%, 100%, 0.8) 0%,
+      hsla(0, 0%, 100%, 1) 33%,
+      hsla(0, 0%, 100%, 0) 75%,
+      hsla(0, 0%, 100%, 0) 100%
+    );
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 992px) {
+  .mvh-55 {
+    min-height: 55vh;
+  }
+}
