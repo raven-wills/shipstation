@@ -27,8 +27,8 @@
 </div>
 <div class="container">
     <div class="row d-flex justify-content-center align-items-start">
-        <h2 class="col-6 m-0">The fastest, easiest way to get products to your customers</h2>
-        <p class="col-5 border-left">ShipStation includes an unparalleled buying and shipping experience with every order you send. All the tools you need to exceed your customers' expectations</p>
+        <h2 class="col-sm-12 col-md-6 m-0">The fastest, easiest way to get products to your customers</h2>
+        <p class="col-sm-12 col-md-5 border-left">ShipStation includes an unparalleled buying and shipping experience with every order you send. All the tools you need to exceed your customers' expectations</p>
     </div>
 </div>
 <div class="container card-group">
@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="card p-5">
-<svg height="70pt" width="70pt" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg height="70pt" width="70pt" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 392.6 392.6" style="enable-background:new 0 0 392.6 392.6;" xml:space="preserve">
 <g>
 	<g>
@@ -77,11 +77,11 @@
   </div>
   <section class="container features-list">
     <div class="row d-flex justify-content-center align-items-start img-list">
-        <img class="col-7 m-0 order-details-img"  src="http://shipstation.local/wp-content/uploads/2021/02/order-details.png" alt="two cellphones stacked showing order details for a shipment"/>
-        <div class="col-5">
+        <img class="col-sm-12 col-md-7 m-0 order-details-img"  src="http://shipstation.local/wp-content/uploads/2021/02/order-details.png" alt="two cellphones stacked showing order details for a shipment"/>
+        <div class="col-sm-12 col-md-5">
             <h2 class="mt-0 mb-2">Expansive features across desktop and mobile</h2>
             <p class="mb-5">No one connects you to more customers and more sales channels than ShipStation.</p>
-          <div class="d-flex justify-content-around align-items-start">
+          <div class="d-flex col-md-auto justify-content-around align-items-start">
             <div style="min-width: 70px;">
 <svg transform="rotate(10)" height="60pt" width="60pt" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
@@ -112,7 +112,7 @@
                 <p>Our shipping solutions seamlessly integrate with all of the major eCommerce shopping carts and platforms enabling you to easily manage and ship your online orders all in one place.</p>
               </div>
             </div>
-            <div class="d-flex justify-content-around align-items-start">
+            <div class="d-flex col-md-auto justify-content-around align-items-start">
               <div style="min-width: 70px;">
             <svg height="70pt" width="70pt" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -148,7 +148,7 @@
                 <p>ShipStation automation rules allow you to automate product lists, attributes, filters, presets, tags, rules, auto-routing for fulfillment and more.</p>
               </div>
             </div>
-            <div class="d-flex justify-content-around align-items-start">
+            <div class="d-flex col-md-auto justify-content-around align-items-start">
               <div style="min-width: 70px;">
             <svg height="70pt" width="70pt" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="491.582px" height="491.582px" viewBox="0 0 491.582 491.582" style="enable-background:new 0 0 491.582 491.582;"
@@ -185,11 +185,11 @@
   </div>
   <div class="container logo-stripe">
     <div class="row justify-content-center">
-    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo.png" alt="">
-    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo.png" alt="">
-    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo.png" alt="">
-    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo.png" alt="">
-    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo.png" alt="">
+    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/magnolia-logo.png" alt="Magnolia logo">
+    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/Lollaland-Logo.png" alt="Lollaland logo">
+    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/Logo_CarlosBakery.png" alt="Carlo's Bakery logo">
+    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/beardbrand_logo.png" alt="Beardbrand logo">
+    <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/spigen_logo.png" alt="Spigen logo">
     </div>
     <div class="container h-100">
     <div class="row d-flex align-items-center h-100">
