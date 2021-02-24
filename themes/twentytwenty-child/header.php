@@ -20,6 +20,7 @@
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="wp-content/themes/twentytwenty-child/assets/js/index.js" type="text/javascript" defer></script>
 		<?php wp_head(); ?>
 
 	</head>
@@ -113,6 +114,9 @@
 
 								}
 								?>
+								<li>
+									<a role="button" class="btn btn-primary" href="#" style="color: white; text-decoration: none;">Try for Free</a>
+								</li>
 
 								</ul>
 

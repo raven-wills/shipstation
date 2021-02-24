@@ -20,7 +20,7 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 	<div class="footer-nav-widgets-wrapper header-footer-group">
 
-		<div class="footer-inner section-inner d-flex">
+		<div class="footer-inner section-inner d-flex pt-3 pb-5">
 
 			<?php
 
@@ -31,14 +31,14 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 			if ( $has_footer_menu || $has_social_menu ) {
 				?>
-				<div class="shipstation-info col-4 mt-5">
-				<img width="150" height="25" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo-for-Dark-Backgrounds-e1614046405702.png" class="image wp-image-59  attachment-full size-full" alt="ShipStation logo" loading="lazy" style="max-width: 100%; height: auto;">
-				<address>3800 N Lamar Blvd #220<br>Austin, TX 78756·512.485.4282</address>
-				<p>Copyright © 2011-2020 ShipStation</p>
-				<a href="#">Privacy Policy</a><br>
-				<a href="#">Do Not Sell My Perrsonal Information</a>
-			</div>
-				<div class="col-8 d-flex justify-content-between align-items-start footer-top<?php echo $footer_top_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
+				<div class="shipstation-info col-md-4 col-sm-12 mt-5">
+					<img width="150" height="25" src="http://shipstation.local/wp-content/uploads/2021/02/ShipStation-Color-Logo-for-Dark-Backgrounds-e1614046405702.png" class="image wp-image-59  attachment-full size-full" alt="ShipStation logo" loading="lazy" style="max-width: 100%; height: auto;">
+					<address class="mt-3">3800 N Lamar Blvd #220<br>Austin, TX 78756·512.485.4282</address>
+					<p class="mb-0">Copyright © 2011-2020 ShipStation</p>
+					<a href="#">Privacy Policy</a><br>
+					<a href="#">Do Not Sell My Personal Information</a>
+				</div>
+				<div class="col-md-8 col-sm-12 d-flex justify-content-between align-items-start footer-top<?php echo $footer_top_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
 					<?php if ( $has_footer_menu ) { ?>
 
 						<nav aria-label="<?php esc_attr_e( 'Footer', 'twentytwenty' ); ?>" role="navigation" class="footer-menu-wrapper">
