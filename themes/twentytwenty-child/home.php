@@ -18,7 +18,7 @@
     </div>
   </div>
 </section>
-<div class="logo-stripe d-flex justify-content-around align-items-center flex-wrap">
+<div class="container logo-stripe d-flex justify-content-around align-items-center flex-wrap">
       <img src="/wp-content/uploads/2021/02/Amazon-Logo.png" alt="Amazon logo">
       <img src="/wp-content/uploads/2021/02/1024px-Shopify_logo_2018.svg_.png" alt="Shopify logo">
       <img src="/wp-content/uploads/2021/02/United-States-Postal-Service-Logo-e1613164517972.png" alt="United States  Postal Service logo">
@@ -195,7 +195,7 @@
       <p>Learn how our customers are using ShipStation to rapidly grow their business, scale their services, and satisfy customers</p>
       <a href="#" role="button" class="btn btn-primary">See Customer Stories</a>
     </div>
-    <div class="logo-stripe d-flex justify-content-around align-items-center flex-wrap">
+    <div class="container logo-stripe d-flex justify-content-around align-items-center flex-wrap">
         <img src="/wp-content/uploads/2021/02/magnolia-logo.png" alt="Magnolia logo">
         <img src="/wp-content/uploads/2021/02/Lollaland-Logo.png" alt="Lollaland logo">
         <img src="/wp-content/uploads/2021/02/Logo_CarlosBakery.png" alt="Carlo's Bakery logo">
