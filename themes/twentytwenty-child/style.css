@@ -11,15 +11,22 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentytwentychild
 */
+
+@media (prefers-reduced-motion) {
+  * {
+    transform: none !important;
+  }
+}
+
 body {
   font-family: Roboto, Arial Narrow, Geneva, Lucida Grande, Helvetica,
     sans-serif;
   overflow-x: hidden;
 }
 
-.site-main {
+.homepage-container {
   background-color: #ffffff;
-  background: url("./assets/img/green-wave-bg.svg");
+  background-image: url("./assets/img/green-wave-bg.svg");
   background-size: 130% 115%;
   background-repeat: no-repeat;
   position: relative;
@@ -85,12 +92,19 @@ a:hover {
   background-color: #1c5247;
 }
 
+.btn-primary:focus {
+  background-color: #6cbe45;
+  outline: 2px solid #1c5247;
+  outline-offset: 5px;
+}
+
 .hero-block {
   background-image: url("/wp-content/uploads/2021/02/woman-and-child-min-scaled-e1614143093337.jpg");
   background-color: gray;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 70vh;
 }
 
 .subtitle {
@@ -116,16 +130,8 @@ a:hover {
   max-width: 1400px;
   margin: 0 auto;
 }
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
-/* Background Transparent Gradient */
-.bg-light-t-o-g::before {
+.bg-light-gradient::before {
   background-color: hsla(0, 0%, 100%, 0.55);
   content: "";
   position: absolute;
@@ -133,10 +139,6 @@ a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.vh-70 {
-  min-height: 70vh;
 }
 
 .gold-stars {
@@ -178,7 +180,7 @@ a:hover {
   margin: 0 auto 30px;
 }
 
-.img-list h2 {
+.feature-list-with-img h2 {
   margin-top: 0;
 }
 
@@ -206,7 +208,7 @@ a:hover {
   display: block;
 }
 
-.features-list h4 {
+.features-list h3 {
   margin-top: 0;
   color: #297768;
   margin-bottom: 1rem;
@@ -221,7 +223,18 @@ a:hover {
   background-image: url("./assets/img/gear-background.svg");
   background-repeat: no-repeat;
   position: relative;
-  background-position: right;
+  background-position-x: right;
+  background-position-y: 30px;
+}
+
+.need-help-container::before {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-top {
@@ -254,7 +267,7 @@ address {
 }
 
 @media (min-width: 768px) {
-  .bg-light-t-o-g::before {
+  .bg-light-gradient::before {
     background-image: linear-gradient(
       to right,
       hsla(0, 0%, 100%, 0.8) 0%,
@@ -267,75 +280,85 @@ address {
 }
 
 @media (max-width: 992px) {
-  .bg-light-t-o-g::before {
+  .bg-light-gradient::before {
     background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
   }
+
   h1 {
     font-size: 3.2rem !important;
     color: white !important;
   }
+
   h2 {
     font-size: 25px !important;
   }
+
   .subtitle {
     color: white !important;
   }
+
   .hero-btn-container a {
     color: white !important;
   }
-  .site-main {
+
+  .homepage-container {
     background-image: none;
   }
-  .mvh-55 {
+
+  .hero-block {
     min-height: 55vh;
   }
+
   .text-with-cta {
     padding: 3.4rem;
   }
+
   .section-title {
     padding: 3.4rem;
   }
+
   .border-left {
     border-left: none !important;
     padding-left: 0;
     margin-top: 1rem;
   }
+
   .card-group {
     margin-top: 0;
   }
+
   .card {
     padding: 1rem 3rem;
   }
+
   .phone-container {
     margin-bottom: 3rem;
   }
+
   .list-items {
     flex-direction: column;
   }
-  .list-items h4 {
+
+  .list-items h3 {
     margin-top: 25px;
   }
-  .need-help-container::before {
-    background-color: hsla(0, 0%, 100%, 0.8);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+
   .need-help-container p {
     color: black !important;
   }
+
   .footer-inner {
     flex-direction: column;
   }
+
   .footer-top {
     flex-direction: column;
   }
+
   .footer-menu-wrapper {
     margin-bottom: 15px;
   }
+
   .footer-menu li {
     margin: 0 15px;
   }

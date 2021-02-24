@@ -17,8 +17,8 @@ $has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
 // Only output the container if there are elements to display.
 if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) {
 	?>
-
-	<div class="footer-nav-widgets-wrapper header-footer-group">
+<footer role="contentinfo">
+	<div class="footer-nav-widgets-wrapper header-footer-group mt-0">
 
 		<div class="footer-inner section-inner d-flex pt-3 pb-5">
 
@@ -122,5 +122,5 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 		</div><!-- .footer-inner -->
 
 	</div><!-- .footer-nav-widgets-wrapper -->
-
+</footer>
 <?php } ?>
