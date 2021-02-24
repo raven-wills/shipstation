@@ -86,7 +86,7 @@ a:hover {
 }
 
 .hero-block {
-  background-image: url("http://shipstation.local/wp-content/uploads/2021/02/woman-and-child-scaled-e1613099691583.jpg");
+  background-image: url("/wp-content/uploads/2021/02/woman-and-child-min-scaled-e1614143093337.jpg");
   background-color: gray;
   background-size: cover;
   background-position: center;
@@ -101,7 +101,7 @@ a:hover {
 .logo-stripe img {
   object-fit: contain;
   max-width: 150px;
-  margin: 0 15px;
+  margin: 15px;
 }
 
 .border-left {

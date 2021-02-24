@@ -18,14 +18,12 @@
     </div>
   </div>
 </section>
-<div class="container logo-stripe">
-    <div class="row justify-content-center">
-      <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/Amazon-Logo.png" alt="Amazon logo">
-      <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/1024px-Shopify_logo_2018.svg_.png" alt="Shopify logo">
-      <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/United-States-Postal-Service-Logo-e1613164517972.png" alt="United States  Postal Service logo">
-      <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/ebay_logo.png" alt="Ebay logo">
-      <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/FedEx-Logo-PNG-Transparent.png" alt="FedEx logo">
-    </div>
+<div class="logo-stripe d-flex justify-content-around align-items-center flex-wrap">
+      <img src="/wp-content/uploads/2021/02/Amazon-Logo.png" alt="Amazon logo">
+      <img src="/wp-content/uploads/2021/02/1024px-Shopify_logo_2018.svg_.png" alt="Shopify logo">
+      <img src="/wp-content/uploads/2021/02/United-States-Postal-Service-Logo-e1613164517972.png" alt="United States  Postal Service logo">
+      <img src="/wp-content/uploads/2021/02/ebay_logo.png" alt="Ebay logo">
+      <img src="/wp-content/uploads/2021/02/FedEx-Logo-PNG-Transparent.png" alt="FedEx logo">
 </div>
 <div class="container">
     <div class="row d-flex justify-content-center align-items-start section-title">
@@ -76,8 +74,8 @@
 </div>
 
     <div class="text-center text-with-cta">
-      <h2>Start your free trail today</h2>
-      <p>Start saving time and money! Try our 30-day risk free trail. <br> No credit card required</p>
+      <h2>Start your free trial today</h2>
+      <p>Start saving time and money! Try our 30-day risk free trial. <br> No credit card required</p>
       <a href="#" role="button" class="btn btn-primary">Try for Free</a>
     </div>
   <section class="container features-list">
@@ -197,14 +195,12 @@
       <p>Learn how our customers are using ShipStation to rapidly grow their business, scale their services, and satisfy customers</p>
       <a href="#" role="button" class="btn btn-primary">See Customer Stories</a>
     </div>
-    <div class="container logo-stripe">
-      <div class="row justify-content-center">
-        <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/magnolia-logo.png" alt="Magnolia logo">
-        <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/Lollaland-Logo.png" alt="Lollaland logo">
-        <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/Logo_CarlosBakery.png" alt="Carlo's Bakery logo">
-        <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/beardbrand_logo.png" alt="Beardbrand logo">
-        <img class="col-2" src="http://shipstation.local/wp-content/uploads/2021/02/spigen_logo.png" alt="Spigen logo">
-      </div>
+    <div class="logo-stripe d-flex justify-content-around align-items-center flex-wrap">
+        <img src="/wp-content/uploads/2021/02/magnolia-logo.png" alt="Magnolia logo">
+        <img src="/wp-content/uploads/2021/02/Lollaland-Logo.png" alt="Lollaland logo">
+        <img src="/wp-content/uploads/2021/02/Logo_CarlosBakery.png" alt="Carlo's Bakery logo">
+        <img src="/wp-content/uploads/2021/02/beardbrand_logo.png" alt="Beardbrand logo">
+        <img src="/wp-content/uploads/2021/02/spigen_logo.png" alt="Spigen logo">
     </div>
     <section class="container h-100 need-help-container">
       <div class="row d-flex align-items-center h-100">
