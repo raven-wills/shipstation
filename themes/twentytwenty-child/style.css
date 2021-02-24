@@ -125,7 +125,6 @@ a:hover {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   max-width: 1400px;
   margin: 0 auto;
