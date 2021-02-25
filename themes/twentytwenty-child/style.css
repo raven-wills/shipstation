@@ -125,6 +125,7 @@ a:hover {
 
 .video-container {
   position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   max-width: 1400px;
   margin: 0 auto;
@@ -266,6 +267,12 @@ a:hover {
 .has-footer-menu .footer-social {
   justify-content: flex-start;
   margin-left: 2rem;
+}
+
+@media (min-width: 1400px) {
+  .video-container {
+    padding-bottom: 815px;
+  }
 }
 
 @media (min-width: 768px) {
